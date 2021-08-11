@@ -1,5 +1,5 @@
 CFLAGS ?= -Wall -Wextra
-LDFLAGS ?= -lcap
+LDFLAGS += -lcap
 
 SOURCES := main.c
 OBJECTS := $(patsubst %.c,%.o,$(SOURCES))
